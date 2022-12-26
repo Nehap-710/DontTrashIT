@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*margin-top: 90px;*/
+    background-size: cover;
+    background-position: center center;
+    align-content: center;
+    font-family:  'Oswald', sans-serif;;
+}
+
+.Heading{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+.signup{
+    text-align: center;
+    align-items: center;
+}
+
+#MainHead{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #000;
+    
+}
+
+.labels{
+    font-size: 15pt;
+}
+
+#entry{
+    width:90%;
+    margin: auto;
+}
+
+#entry a{
+    color:#000;
+    font-family:  'Oswald', sans-serif;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, sans-serif;
+    line-height: 1.3;
+    width: 45%;
+    padding: 1rem 2rem;
+    margin: auto;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form .box{
+    width: 100%;
+    height: 1cm;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder{
+    color:rgb(0, 0, 0);
+    font-family:  'Oswald', sans-serif;;
+}
+
+.labels{
+    font-size: 15pt;
+    color: #000;
+    font-family:  'Oswald', sans-serif;;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    form{
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(2px);
+      background-color: rgba(69,173,168, 0.5);
+    }
+    form .box{
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(1px);
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.button1{
+    width: 98.5%;
+    height: 1cm;
+    position: relative;
+    background-color:rgba(24, 39, 51 , 0.85);;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}

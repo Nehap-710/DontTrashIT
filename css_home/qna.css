@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+    background-color: royalblue;
+}
+
+a:hover{
+    cursor: pointer;
+    color :rgba(13, 110, 139, 0.75);
+}
+
+/*faq-intro*/
+#faq-intro{
+    text-align: center;
+    background-color: white;
+}
+
+#faq-intro>h1{
+    font-size: 48px;
+    color:  rgba(24, 39, 51 , 0.85);
+    text-decoration: underline;
+    padding-top: 50px;
+    text-decoration-color:rgb(228, 228, 74);
+    padding-bottom: 20px;
+}
+
+/*faqs*/
+.faqs{
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.faqs .content-box{
+    position: relative;
+}
+
+.faqs .content-box .label{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content-box .content-con{
+	padding:20px;
+}
+
+.content-box .content-con{
+	display: none;
+}
+
+.faqs .content-box .label{
+    font-size: 23px;
+}
+
+.faqs .content-box .label:hover{
+    color: rgb(228, 228, 74);
+}
+
+.faqs .content-box .label::before{
+    content: '+';
+    padding-bottom: 30px;
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    font-size: 25px;
+}
+
+.faqs .content-box .label::before{
+    content: '-';
+}
+
+.faqs .content-box .content-con{
+    position: relative;
+    background: white;
+    color: black;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 17px;
+    font-size: 20px;
+}
+
+.faqs .content-box .content-con>a{
+    color:black;
+    text-decoration: none;
+}
+
+.faqs .content-box .content-con>a:hover{
+    color: royalblue;
+    border-bottom: 1px solid royalblue;
+}
+
+.faqs .content-box .content-con>ul>li{
+    list-style: none;
+    padding-left: 30px;
+}
+
+.faqs .content-box.content-con{
+    height: fit-content;
+    padding: 20px;
+}
+
+.faqs .plastic{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+}
+.faqs .reuse{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+}
+.faqs .recycle{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.plastic-outer{
+	display: none;
+}
+
+.recycle-outer{
+    display: none;
+}
+
+.reuse-outer{
+    display: none;
+}
+
+.faqs .plastic:hover{
+    color: rgb(228, 228, 74);
+}
+
+.faqs .reuse:hover{
+    color: rgb(228, 228, 74);
+}
+
+.faqs .recycle:hover{
+    color: rgb(228, 228, 74);
+}
+
+
+.plastic-outer .recycle-outer .reuse-outer{
+    position: relative;
+    background: white;
+    color: black;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 17px;
+    font-size: 40px;
+}
+

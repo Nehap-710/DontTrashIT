@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(112, 255, 184);
+}
+
+a:hover{
+  cursor: pointer;
+  color :rgba(13, 110, 139, 0.75);
+}
+
+/*faq-intro*/
+#result-intro{
+  text-align: center;
+  background-color: white;
+}
+
+#result-intro>h1{
+  font-size: 48px;
+  color:  rgba(24, 39, 51 , 0.85);
+  text-decoration: underline;
+  padding-top: 50px;
+  text-decoration-color:rgb(228, 228, 74);
+  padding-bottom: 20px;
+}
+
+.result{
+  font-size: 30px;
+  text-align: center;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 40px;
+
+}
+.suggestions h2{
+  font-size: 30px;
+  text-align: center;
+  margin:10px;
+  padding-top:20px;
+  text-decoration: underline;
+  text-decoration-color:rgb(228, 228, 74);
+  color:  rgba(24, 39, 51);
+}
+
+li{
+  font-size: 20px;
+  text-align: center;
+  padding:10px;
+}
